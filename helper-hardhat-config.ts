@@ -12,3 +12,4 @@ export const networkConfig = {
 export const developmentChains = ["hardhat", "localhost"];
 export const DECIMALS = 8;
 export const INITIAL_ANSWER = 200000000000;
+export const BLOCK_CONFIRMATIONS = 6;
