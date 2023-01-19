@@ -29,12 +29,12 @@ const config: HardhatUserConfig = {
         },
     },
     gasReporter: {
-        enabled: false,
+        enabled: true,
         outputFile: "gas-report.txt",
         noColors: true,
         currency: "USD",
         token: "MATIC",
-        coinmarketcap: COINMARKETCAP_API_KEY,
+        //coinmarketcap: COINMARKETCAP_API_KEY,
     },
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,

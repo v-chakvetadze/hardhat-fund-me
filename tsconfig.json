@@ -9,5 +9,5 @@
         "outDir": "dist",
         "listFiles": true
     },
-    "include": ["hardhat.config.ts", "helper-hardhat-config.ts", "./deploy"]
+    "include": ["hardhat.config.ts", "helper-hardhat-config.ts", "./deploy", "./test"]
 }
