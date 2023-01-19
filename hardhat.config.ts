@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { HardhatUserConfig } from "hardhat/config";
 import "hardhat-deploy";
 import "@nomiclabs/hardhat-ethers";
@@ -8,7 +9,7 @@ import "hardhat-gas-reporter";
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL;
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
-if (!PRIVATE_KEY) throw new Error("Missing private key")
+if (!PRIVATE_KEY) throw new Error("Missing private key");
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
 
 const config: HardhatUserConfig = {
