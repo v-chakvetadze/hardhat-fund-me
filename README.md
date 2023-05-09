@@ -13,3 +13,4 @@ npx hardhat run scripts/deploy.ts
 ```
 
 yarn hardhat deploy --network goerli
+yarn hardhat test --network goerli

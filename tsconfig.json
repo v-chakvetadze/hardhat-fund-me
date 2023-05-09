@@ -1,13 +1,20 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2021",
+        "lib": ["ES2021"],
         "module": "commonjs",
-        "strict": true,
-        "esModuleInterop": true,
         "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
-        "outDir": "dist",
-        "listFiles": true
+        "strict": true,
+        "skipLibCheck": true
     },
-    "include": ["hardhat.config.ts", "helper-hardhat-config.ts", "./deploy", "./test"]
+    "include": [
+        "hardhat.config.cts",
+        "helper-hardhat-config.ts",
+        "./deploy",
+        "./test",
+        "./scripts"
+    ]
 }
